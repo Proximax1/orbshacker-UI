@@ -1,0 +1,909 @@
+{
+ "filename": [
+  [
+   "",
+   "unnamed"
+  ],
+  [
+   "a",
+   "a"
+  ],
+  [
+   "  spaced  ",
+   "spaced"
+  ],
+  [
+   "trail.",
+   "trail"
+  ],
+  [
+   "trail. .",
+   "trail"
+  ],
+  [
+   "...",
+   "unnamed"
+  ],
+  [
+   "???",
+   "unnamed"
+  ],
+  [
+   "Game™: The *Sequel*?",
+   "Game The Sequel"
+  ],
+  [
+   "con",
+   "_con"
+  ],
+  [
+   "CON",
+   "_CON"
+  ],
+  [
+   "nul.exe",
+   "_nul.exe"
+  ],
+  [
+   "com1.txt",
+   "_com1.txt"
+  ],
+  [
+   "COM9",
+   "_COM9"
+  ],
+  [
+   "lpt3",
+   "_lpt3"
+  ],
+  [
+   "console",
+   "console"
+  ],
+  [
+   "aux.",
+   "_aux"
+  ],
+  [
+   "prn.tar.gz",
+   "_prn.tar.gz"
+  ],
+  [
+   "a\u0001b",
+   "ab"
+  ],
+  [
+   "tab\there",
+   "tabhere"
+  ],
+  [
+   "Ünïcödé Game",
+   "Ünïcödé Game"
+  ],
+  [
+   "日本語ゲーム.exe",
+   "日本語ゲーム.exe"
+  ],
+  [
+   "a|b<c>d",
+   "abcd"
+  ],
+  [
+   "x/y",
+   "xy"
+  ],
+  [
+   "x\\y",
+   "xy"
+  ],
+  [
+   "®©℠℗",
+   "unnamed"
+  ],
+  [
+   "name . ",
+   "name"
+  ],
+  [
+   " . ",
+   "unnamed"
+  ],
+  [
+   "_con",
+   "_con"
+  ],
+  [
+   "CLOCK$",
+   "CLOCK$"
+  ],
+  [
+   "Game.exe",
+   "Game.exe"
+  ],
+  [
+   "TslGame.exe",
+   "TslGame.exe"
+  ]
+ ],
+ "segment": [
+  [
+   "",
+   "unnamed"
+  ],
+  [
+   "a",
+   "a"
+  ],
+  [
+   "  spaced  ",
+   "spaced"
+  ],
+  [
+   "trail.",
+   "trail"
+  ],
+  [
+   "trail. .",
+   "trail"
+  ],
+  [
+   "...",
+   "unnamed"
+  ],
+  [
+   "???",
+   "unnamed"
+  ],
+  [
+   "Game™: The *Sequel*?",
+   "Game The Sequel"
+  ],
+  [
+   "con",
+   "_con"
+  ],
+  [
+   "CON",
+   "_CON"
+  ],
+  [
+   "nul.exe",
+   "_nul.exe"
+  ],
+  [
+   "com1.txt",
+   "_com1.txt"
+  ],
+  [
+   "COM9",
+   "_COM9"
+  ],
+  [
+   "lpt3",
+   "_lpt3"
+  ],
+  [
+   "console",
+   "console"
+  ],
+  [
+   "aux.",
+   "_aux"
+  ],
+  [
+   "prn.tar.gz",
+   "_prn.tar.gz"
+  ],
+  [
+   "a\u0001b",
+   "ab"
+  ],
+  [
+   "tab\there",
+   "tabhere"
+  ],
+  [
+   "Ünïcödé Game",
+   "Ünïcödé Game"
+  ],
+  [
+   "日本語ゲーム.exe",
+   "日本語ゲーム.exe"
+  ],
+  [
+   "a|b<c>d",
+   "abcd"
+  ],
+  [
+   "x/y",
+   "xy"
+  ],
+  [
+   "x\\y",
+   "xy"
+  ],
+  [
+   "®©℠℗",
+   "unnamed"
+  ],
+  [
+   "name . ",
+   "name"
+  ],
+  [
+   " . ",
+   "unnamed"
+  ],
+  [
+   "_con",
+   "_con"
+  ],
+  [
+   "CLOCK$",
+   "CLOCK$"
+  ],
+  [
+   "Game.exe",
+   "Game.exe"
+  ],
+  [
+   "TslGame.exe",
+   "TslGame.exe"
+  ]
+ ],
+ "relative": [
+  [
+   "",
+   "unnamed"
+  ],
+  [
+   "Game.exe",
+   "Game.exe"
+  ],
+  [
+   "Bin/Game.exe",
+   "Bin/Game.exe"
+  ],
+  [
+   "Bin\\Game.exe",
+   "Bin/Game.exe"
+  ],
+  [
+   "..\\..\\evil.exe",
+   "evil.exe"
+  ],
+  [
+   "../x/../y.exe",
+   "x/y.exe"
+  ],
+  [
+   "C:\\Windows\\x.exe",
+   "Windows/x.exe"
+  ],
+  [
+   "c:///a/./b/../c.exe",
+   "a/b/c.exe"
+  ],
+  [
+   "D:",
+   "unnamed"
+  ],
+  [
+   "D:\\",
+   "unnamed"
+  ],
+  [
+   "/abs/path.exe",
+   "abs/path.exe"
+  ],
+  [
+   "//unc/share/x.exe",
+   "unc/share/x.exe"
+  ],
+  [
+   "a//b///c.exe",
+   "a/b/c.exe"
+  ],
+  [
+   " a / b .exe",
+   "a/b .exe"
+  ],
+  [
+   "con/nul/x.exe",
+   "_con/_nul/x.exe"
+  ],
+  [
+   "./.",
+   "unnamed"
+  ],
+  [
+   "..",
+   "unnamed"
+  ],
+  [
+   "...",
+   "unnamed"
+  ],
+  [
+   "a/./b",
+   "a/b"
+  ],
+  [
+   "x:y/z",
+   "y/z"
+  ],
+  [
+   "Win64/ゲーム/Game™.exe",
+   "Win64/ゲーム/Game.exe"
+  ],
+  [
+   "bin/\u0002x.exe",
+   "bin/x.exe"
+  ],
+  [
+   "  ",
+   "unnamed"
+  ],
+  [
+   "a/ . /b",
+   "a/b"
+  ]
+ ],
+ "games": [
+  {
+   "id": "1",
+   "name": "PUBG: Battlegrounds",
+   "aliases": [
+    "PUBG",
+    "pubg battle"
+   ],
+   "executables": [
+    {
+     "os": "win32",
+     "name": "TslGame.exe"
+    },
+    {
+     "os": "win32",
+     "name": "TslGame_BE.exe"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "name": "PUBG",
+   "aliases": []
+  },
+  {
+   "id": "3",
+   "name": "Other Game",
+   "aliases": [
+    "pubgish",
+    "OG"
+   ],
+   "executables": [
+    {
+     "os": "linux",
+     "name": "other"
+    },
+    {
+     "os": "win32",
+     "name": ">Bin\\Other.exe"
+    }
+   ]
+  },
+  {
+   "name": "NoId PUBG"
+  },
+  {
+   "id": "4",
+   "name": "League of Legends",
+   "aliases": [
+    "LoL"
+   ],
+   "executables": [
+    {
+     "os": "win32",
+     "name": "League of Legends.exe"
+    },
+    {
+     "os": "win32",
+     "name": "LeagueLauncher.exe"
+    },
+    {
+     "os": "win32",
+     "name": "League of Legends.exe"
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "name": "Dup",
+   "aliases": []
+  },
+  {
+   "id": "5",
+   "name": "Dup Again",
+   "aliases": [
+    "dup"
+   ]
+  },
+  {
+   "id": "6",
+   "name": "Launcher Only",
+   "executables": [
+    {
+     "os": "win32",
+     "name": "launcher.exe"
+    },
+    {
+     "os": "win32",
+     "name": "unins000.exe"
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "name": "Éclair Ünïcode",
+   "aliases": [
+    "ÉCLAIR"
+   ]
+  },
+  {
+   "id": "8",
+   "name": "Traversal",
+   "executables": [
+    {
+     "os": "win32",
+     "name": "..\\..\\evil.exe"
+    },
+    {
+     "os": "win32",
+     "name": "C:\\x\\y.exe"
+    }
+   ]
+  }
+ ],
+ "search": [
+  [
+   "pubg",
+   [
+    "1",
+    "2",
+    "3"
+   ]
+  ],
+  [
+   "PUBG",
+   [
+    "1",
+    "2",
+    "3"
+   ]
+  ],
+  [
+   "league",
+   [
+    "4"
+   ]
+  ],
+  [
+   "lol",
+   [
+    "4"
+   ]
+  ],
+  [
+   "dup",
+   [
+    "5"
+   ]
+  ],
+  [
+   "other",
+   [
+    "3"
+   ]
+  ],
+  [
+   "game",
+   [
+    "3"
+   ]
+  ],
+  [
+   "zzz",
+   []
+  ],
+  [
+   "",
+   [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ]
+  ],
+  [
+   "éclair",
+   [
+    "7"
+   ]
+  ],
+  [
+   "ÉCLAIR",
+   [
+    "7"
+   ]
+  ],
+  [
+   "launcher",
+   [
+    "6"
+   ]
+  ]
+ ],
+ "exes": [
+  [
+   "1",
+   "TslGame.exe",
+   [
+    "TslGame.exe",
+    "TslGame_BE.exe"
+   ]
+  ],
+  [
+   "2",
+   null,
+   []
+  ],
+  [
+   "3",
+   "Bin/Other.exe",
+   [
+    "Bin/Other.exe"
+   ]
+  ],
+  [
+   "",
+   null,
+   []
+  ],
+  [
+   "4",
+   "League of Legends.exe",
+   [
+    "League of Legends.exe",
+    "LeagueLauncher.exe"
+   ]
+  ],
+  [
+   "5",
+   null,
+   []
+  ],
+  [
+   "5",
+   null,
+   []
+  ],
+  [
+   "6",
+   null,
+   [
+    "launcher.exe",
+    "unins000.exe"
+   ]
+  ],
+  [
+   "7",
+   null,
+   []
+  ],
+  [
+   "8",
+   "evil.exe",
+   [
+    "evil.exe",
+    "x/y.exe"
+   ]
+  ]
+ ],
+ "pick_exe": [
+  [
+   {},
+   null
+  ],
+  [
+   {
+    "0": {
+     "executable": "run.sh"
+    }
+   },
+   null
+  ],
+  [
+   {
+    "1": {
+     "executable": "b.exe"
+    },
+    "0": {
+     "executable": "a.exe",
+     "config": {
+      "oslist": "windows"
+     }
+    }
+   },
+   "a.exe"
+  ],
+  [
+   {
+    "2": {
+     "executable": "bin\\x.exe",
+     "config": {
+      "oslist": "windows,macos"
+     }
+    },
+    "10": {
+     "executable": "first.exe"
+    }
+   },
+   "first.exe"
+  ],
+  [
+   {
+    "0": {
+     "executable": "mac.exe",
+     "config": {
+      "oslist": "macos"
+     }
+    }
+   },
+   null
+  ],
+  [
+   {
+    "0": {
+     "executable": "e.exe",
+     "config": {
+      "oslist": ""
+     }
+    }
+   },
+   "e.exe"
+  ],
+  [
+   {
+    "0": {
+     "executable": "../../evil.exe"
+    }
+   },
+   "../../evil.exe"
+  ]
+ ],
+ "resolve": [
+  [
+   {},
+   "Some Game.exe"
+  ],
+  [
+   {
+    "0": {
+     "executable": "run.sh"
+    }
+   },
+   "Some Game.exe"
+  ],
+  [
+   {
+    "1": {
+     "executable": "b.exe"
+    },
+    "0": {
+     "executable": "a.exe",
+     "config": {
+      "oslist": "windows"
+     }
+    }
+   },
+   "a.exe"
+  ],
+  [
+   {
+    "2": {
+     "executable": "bin\\x.exe",
+     "config": {
+      "oslist": "windows,macos"
+     }
+    },
+    "10": {
+     "executable": "first.exe"
+    }
+   },
+   "first.exe"
+  ],
+  [
+   {
+    "0": {
+     "executable": "mac.exe",
+     "config": {
+      "oslist": "macos"
+     }
+    }
+   },
+   "Some Game.exe"
+  ],
+  [
+   {
+    "0": {
+     "executable": "e.exe",
+     "config": {
+      "oslist": ""
+     }
+    }
+   },
+   "e.exe"
+  ],
+  [
+   {
+    "0": {
+     "executable": "../../evil.exe"
+    }
+   },
+   "evil.exe"
+  ]
+ ],
+ "steam_info": [
+  [
+   7,
+   {
+    "data": {
+     "7": {
+      "common": {
+       "name": "Cool™ Game"
+      },
+      "config": {
+       "installdir": "Cool Game",
+       "launch": {
+        "0": {
+         "executable": "Bin\\cool.exe"
+        }
+       }
+      },
+      "depots": {
+       "baselanguages": "x",
+       "8": {},
+       "9": {}
+      }
+     }
+    }
+   },
+   {
+    "name": "Cool Game",
+    "installdir": "Cool Game",
+    "executable": "Bin/cool.exe",
+    "depot_id": "8"
+   }
+  ],
+  [
+   5,
+   {},
+   {
+    "name": "App 5",
+    "installdir": "App 5",
+    "executable": "App 5.exe",
+    "depot_id": null
+   }
+  ],
+  [
+   6,
+   {
+    "data": {
+     "6": {}
+    }
+   },
+   {
+    "name": "App 6",
+    "installdir": "App 6",
+    "executable": "App 6.exe",
+    "depot_id": null
+   }
+  ],
+  [
+   4080220,
+   {
+    "data": {
+     "4080220": {
+      "common": {
+       "name": "FC 27"
+      },
+      "config": {
+       "installdir": "FC27"
+      }
+     }
+    }
+   },
+   {
+    "name": "FC 27",
+    "installdir": "FC27",
+    "executable": "fc27.exe",
+    "depot_id": null
+   }
+  ],
+  [
+   9,
+   {
+    "data": {
+     "9": {
+      "common": {
+       "name": "con"
+      },
+      "config": {
+       "installdir": "nul",
+       "launch": {}
+      },
+      "depots": {
+       "12": {}
+      }
+     }
+    }
+   },
+   {
+    "name": "_con",
+    "installdir": "_nul",
+    "executable": "_nul.exe",
+    "depot_id": "12"
+   }
+  ],
+  [
+   10,
+   {
+    "data": {
+     "10": {
+      "common": {
+       "name": "Weird/Name:"
+      },
+      "config": {
+       "installdir": "../Up/Down"
+      },
+      "depots": {
+       "a1": {},
+       "1a": {},
+       "": {},
+       "77": {}
+      }
+     }
+    }
+   },
+   {
+    "name": "WeirdName",
+    "installdir": "..UpDown",
+    "executable": "..UpDown.exe",
+    "depot_id": "77"
+   }
+  ]
+ ],
+ "acf": [
+  [
+   7,
+   "Cool",
+   "Cool",
+   "C:/Steam",
+   "123",
+   "8",
+   "\"AppState\"\n{\n\t\"appid\"\t\t\"7\"\n\t\"universe\"\t\t\"1\"\n\t\"LauncherPath\"\t\t\"C:\\Steam\\steam.exe\"\n\t\"name\"\t\t\"Cool\"\n\t\"StateFlags\"\t\t\"1026\"\n\t\"installdir\"\t\t\"Cool\"\n\t\"LastUpdated\"\t\t\"0\"\n\t\"LastPlayed\"\t\t\"0\"\n\t\"SizeOnDisk\"\t\t\"0\"\n\t\"StagingSize\"\t\t\"1073741824\"\n\t\"buildid\"\t\t\"0\"\n\t\"LastOwner\"\t\t\"123\"\n\t\"DownloadType\"\t\t\"1\"\n\t\"UpdateResult\"\t\t\"4\"\n\t\"BytesToDownload\"\t\t\"1073741824\"\n\t\"BytesDownloaded\"\t\t\"27262976\"\n\t\"BytesToStage\"\t\t\"1073741824\"\n\t\"BytesStaged\"\t\t\"27262976\"\n\t\"TargetBuildID\"\t\t\"0\"\n\t\"AutoUpdateBehavior\"\t\t\"0\"\n\t\"AllowOtherDownloadsWhileRunning\"\t\t\"0\"\n\t\"ScheduledAutoUpdate\"\t\t\"0\"\n\t\"InstalledDepots\"\n\t{\n\t}\n\t\"StagedDepots\"\n\t{\n\t\t\"8\"\n\t\t{\n\t\t\t\"manifest\"\t\t\"0\"\n\t\t\t\"size\"\t\t\"1073741824\"\n\t\t\t\"dlcappid\"\t\t\"0\"\n\t\t}\n\t}\n\t\"UserConfig\"\n\t{\n\t}\n\t\"MountedConfig\"\n\t{\n\t}\n}\n"
+  ],
+  [
+   7,
+   "Cool",
+   "Cool",
+   "C:/Program Files (x86)/Steam",
+   "76561197960265729",
+   null,
+   "\"AppState\"\n{\n\t\"appid\"\t\t\"7\"\n\t\"universe\"\t\t\"1\"\n\t\"LauncherPath\"\t\t\"C:\\Program Files (x86)\\Steam\\steam.exe\"\n\t\"name\"\t\t\"Cool\"\n\t\"StateFlags\"\t\t\"1026\"\n\t\"installdir\"\t\t\"Cool\"\n\t\"LastUpdated\"\t\t\"0\"\n\t\"LastPlayed\"\t\t\"0\"\n\t\"SizeOnDisk\"\t\t\"0\"\n\t\"StagingSize\"\t\t\"1073741824\"\n\t\"buildid\"\t\t\"0\"\n\t\"LastOwner\"\t\t\"76561197960265729\"\n\t\"DownloadType\"\t\t\"1\"\n\t\"UpdateResult\"\t\t\"4\"\n\t\"BytesToDownload\"\t\t\"1073741824\"\n\t\"BytesDownloaded\"\t\t\"27262976\"\n\t\"BytesToStage\"\t\t\"1073741824\"\n\t\"BytesStaged\"\t\t\"27262976\"\n\t\"TargetBuildID\"\t\t\"0\"\n\t\"AutoUpdateBehavior\"\t\t\"0\"\n\t\"AllowOtherDownloadsWhileRunning\"\t\t\"0\"\n\t\"ScheduledAutoUpdate\"\t\t\"0\"\n\t\"InstalledDepots\"\n\t{\n\t}\n\t\"StagedDepots\"\n\t{\n\t}\n\t\"UserConfig\"\n\t{\n\t}\n\t\"MountedConfig\"\n\t{\n\t}\n}\n"
+  ]
+ ]
+}

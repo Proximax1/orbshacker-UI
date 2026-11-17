@@ -1,0 +1,19 @@
+[package]
+name = "orbshacker-core"
+version = "0.1.0"
+edition = "2021"
+description = "Logic of orbshacker: Discord DB, Steam manifests, fake game processes, settings."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+ureq = { version = "2", features = ["json"] }
+thiserror = "1"
+dirs = "5"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.52"
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_Graphics_Dwm", "Win32_Graphics_Gdi", "Win32_System_LibraryLoader", "Win32_UI_HiDpi", "Win32_UI_WindowsAndMessaging"] }
+
+[dev-dependencies]
+tempfile = "3"

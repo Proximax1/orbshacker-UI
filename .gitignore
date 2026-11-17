@@ -1,0 +1,7 @@
+/target/
+/src-tauri/gen/
+settings.json
+*.exe
+*.pdb
+Thumbs.db
+.DS_Store

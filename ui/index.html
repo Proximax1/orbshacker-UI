@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>orbshacker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></symbol>
+  </svg>
+
+  <div id="app">
+    <header class="titlebar" data-tauri-drag-region>
+      <span class="title">orbshacker</span>
+      <div class="wincontrols">
+        <button type="button" id="win-min" aria-label="Minimize"><svg class="ico"><use href="#i-minus"/></svg></button>
+        <button type="button" id="win-close" class="close" aria-label="Close"><svg class="ico"><use href="#i-x"/></svg></button>
+      </div>
+    </header>
+
+    <div class="shell">
+      <nav class="rail" aria-label="Main">
+        <div class="nav" id="nav-top"></div>
+        <div class="nav bottom" id="nav-bottom"></div>
+      </nav>
+
+      <main class="main"><div class="view" id="view"></div><div class="foot" id="foot" hidden></div></main>
+
+      <aside class="dock" aria-labelledby="dock-title">
+        <div class="dock-head">
+          <h2 id="dock-title" tabindex="-1">Queue</h2>
+          <span class="muted" id="dock-sub"></span>
+        </div>
+        <div class="sessions" id="sessions"></div>
+        <div class="dock-foot"><button type="button" class="btn quiet small" id="clear-finished" hidden>Clear finished</button></div>
+      </aside>
+    </div>
+  </div>
+
+  <div class="sr" id="sr-status" role="status" aria-live="polite"></div>
+  <div class="toasts"><div id="toasts" role="status" aria-live="polite"></div><div id="toasts-err" role="alert"></div></div>
+  <script src="app.js"></script>
+</body>
+</html>
